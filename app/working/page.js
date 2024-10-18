@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect } from 'react';
 
-export default function working() {
+export default function Working() {
   useEffect(() => {
     document.title = "Randomly - How it works";
   }, [])

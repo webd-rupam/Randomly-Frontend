@@ -15,12 +15,12 @@ export default function About() {
       <div className="w-full max-w-2xl bg-gray-800 p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold mb-4 text-green-400">Welcome to Randomly!</h2>
         <p className="text-lg mb-4">
-          I am Rupam, the sole creator of Randomly, an innovative chat platform designed for individuals seeking anonymous and enjoyable conversations. With a passion for connecting people, I've developed this platform to foster connections without the constraints of personal identification.
+          I am Rupam, the sole creator of Randomly, an innovative chat platform designed for individuals seeking anonymous and enjoyable conversations. With a passion for connecting people, I have developed this platform to foster connections without the constraints of personal identification.
         </p>
         
         <h3 className="text-xl font-semibold mb-2 underline text-white">Mission</h3>
         <p className="mb-4">
-          My mission is to create a safe space for everyone to engage in random chats while ensuring complete anonymity. Whether you're looking to make new friends or simply enjoy a fun conversation, Randomly is here for you.
+          My mission is to create a safe space for everyone to engage in random chats while ensuring complete anonymity. Whether you are looking to make new friends or simply enjoy a fun conversation, Randomly is here for you.
         </p>
         
         <h3 className="text-xl font-semibold mb-2 underline text-white">Vision</h3>
@@ -30,7 +30,7 @@ export default function About() {
 
         <h3 className="text-xl font-semibold mb-2 underline text-white">Get in Touch</h3>
         <p className="mb-4">
-          I'm always open to feedback and ideas! If you have any suggestions or would like to reach out, feel free to connect with me through the platform or follow me on my social media channels.
+          I am always open to feedback and ideas! If you have any suggestions or would like to reach out, feel free to connect with me through the platform or follow me on my social media channels.
         </p>
 
         <div className="flex justify-center mt-6">

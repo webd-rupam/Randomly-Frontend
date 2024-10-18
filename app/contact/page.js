@@ -82,7 +82,7 @@ export default function Contact() {
         <h1 className="text-4xl font-bold mb-6 text-center text-white">Contact Us</h1>
 
         <div className="w-full max-w-md bg-gray-800 p-8 rounded-lg shadow-lg">
-          <h2 className="text-xl font-semibold mb-4 text-green-400">We'd Love to Hear From You!</h2>
+          <h2 className="text-xl font-semibold mb-4 text-green-400">We Would Love to Hear From You!</h2>
 
           <form className="space-y-6" onSubmit={handleSubmit}>
             {/* Name Input */}

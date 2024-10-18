@@ -117,7 +117,7 @@ export default function Home() {
         </div>
         <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
           <h3 className="text-xl font-bold mb-4">Cross-platform</h3>
-          <p>Works on any device, whether you're on mobile, tablet, or desktop.</p>
+          <p>Works on any device, whether you are on mobile, tablet, or desktop.</p>
         </div>
       </section>
     </main>

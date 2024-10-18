@@ -116,7 +116,7 @@ export default function Login() {
 
         {/* Signup Redirect */}
         <p className="mt-6 text-center text-sm">
-          Don't have an account?{' '}
+          Don&apos;t have an account?{' '}
           <Link href="/signup">
             <span className="text-blue-400 hover:underline">Sign up</span>
           </Link>
