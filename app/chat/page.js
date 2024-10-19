@@ -14,7 +14,7 @@ const Chat = () => {
   const [strangerStatus, setStrangerStatus] = useState("Finding Stranger to talk... Have patience!");
   const [strangerLeft, setStrangerLeft] = useState(false);
   const messageEndRef = useRef(null);
-  const ENDPOINT = "http://localhost:4500";
+  const ENDPOINT = process.env.NEXT_PUBLIC_SOCKET_ENDPOINT;
 
   const send = (e) => {
     e.preventDefault();
