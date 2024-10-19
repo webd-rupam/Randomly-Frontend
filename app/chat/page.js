@@ -56,7 +56,7 @@ const Chat = () => {
     });
 
     socket.on("leave", (data) => {
-      setStrangerStatus("Stranger has left the chat!"); // Show status when stranger leaves
+      setStrangerStatus("Stranger has left the chat!"); // Update the status message
       setStrangerLeft(true); // Enable "Find more" button
     });
 
