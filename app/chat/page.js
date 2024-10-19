@@ -66,12 +66,12 @@ const Chat = () => {
   }, []);
 
   // Authentication check
-  useEffect(() => {
-    const token = document.cookie.split("; ").find((row) => row.startsWith("token="));
-    if (!token) {
-      router.push("/login"); // Redirect to login page if not authenticated
-    }
-  }, [router]);
+  // useEffect(() => {
+  //   const token = document.cookie.split("; ").find((row) => row.startsWith("token="));
+  //   if (!token) {
+  //     router.push("/login"); // Redirect to login page if not authenticated
+  //   }
+  // }, [router]);
 
   // Scroll to the bottom whenever messages change
   useEffect(() => {
