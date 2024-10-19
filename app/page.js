@@ -43,7 +43,7 @@ export default function Home() {
       {/* Top Buttons */}
       <div className="absolute top-4 w-full flex justify-between px-6 z-10">
         {isAuthenticated ? (
-          <div className="w-full flex justify-between items-center">
+          <div className="w-full flex lg:flex-row lg:gap-0 flex-col gap-3 lg:justify-between items-center">
             {/* Welcome Message on the Left */}
             <p className="text-lg font-semibold text-white bg-gray-800 px-4 py-2 rounded-lg shadow-md flex items-center space-x-2">
               <span className="text-white">Welcome,</span>
