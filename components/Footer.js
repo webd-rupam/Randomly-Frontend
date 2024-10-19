@@ -37,8 +37,8 @@ const Footer = () => {
 
          <a href='/about' target='_blank' className='text-[12px] text-center mt-8 md:mt-0 mb-10 md:mb-8 underline'>About</a>
        <a href='/contact' target='_blank' className='text-[12px] text-center mt-8 md:mt-0 mb-10 md:mb-8 underline'>Contact</a>
-       <a href='/contact' target='_blank' className='text-[12px] text-center mt-8 md:mt-0 mb-10 md:mb-8 underline'>How it works</a>
-       <a href='/contact' target='_blank' className='text-[12px] text-center mt-8 md:mt-0 mb-10 md:mb-8 underline'>Privacy Policy</a>
+       <a href='/working' target='_blank' className='text-[12px] text-center mt-8 md:mt-0 mb-10 md:mb-8 underline'>How it works</a>
+       <a href='/privacy' target='_blank' className='text-[12px] text-center mt-8 md:mt-0 mb-10 md:mb-8 underline'>Privacy Policy</a>
        </div>
        </div>
 
