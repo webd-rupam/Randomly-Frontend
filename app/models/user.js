@@ -3,9 +3,7 @@ import mongoose from 'mongoose';
 const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
-  isVerified: { type: Boolean, default: false }, // Track if the user is verified
-  verificationToken: { type: String }, // Store the token for email verification
+  password: { type: String, required: true }
 });
 
 // Export the model or use the existing one if already defined
