@@ -53,7 +53,7 @@ export default function Home() {
             {/* Logout Button on the Right */}
             <button
               onClick={handleLogout}
-              className="ml-auto lg:px-4 py-1 px-1 bg-red-500 hover:bg-red-700 text-white font-semibold rounded-md shadow-lg transition duration-300"
+              className="lg:block hidden ml-auto lg:px-4 py-1 px-1 bg-red-500 hover:bg-red-700 text-white font-semibold rounded-md shadow-lg transition duration-300"
             >
               Logout
             </button>
