@@ -27,7 +27,7 @@ export async function POST(req) {
     });
 
     // Generate JWT token
-    const token = jwt.sign({ email: newUser.email }, 'your-secret-key', { expiresIn: '1h' });
+    const token = jwt.sign({ email: newUser.email }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
     // Send token in cookie
     const response = new Response(

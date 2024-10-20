@@ -23,7 +23,7 @@ export async function POST(req) {
     }
 
     // Generate JWT token
-    const token = jwt.sign({ email: user.email }, 'your-secret-key', { expiresIn: '1h' });
+    const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
     // Send token in cookie (no HttpOnly so it can be accessed by the client-side for checking)
     const response = new Response(
