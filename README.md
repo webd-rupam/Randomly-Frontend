@@ -9,21 +9,21 @@ Socket Server Repo: https://github.com/webd-rupam/Randomly-SocketServer
 *************************************************************************************
 
 Features:
->🌐 Real-time Chat: Instant messaging using WebSocket technology through Socket.IO.
->👤 Anonymous Messaging: Chat without revealing personal information. Each user is assigned a unique ID.
->📱 Responsive Design: Fully responsive for optimal experience on mobile and desktop devices.
->✨ User-Friendly Interface: Clean and modern UI built with Tailwind CSS for easy navigation.
+🌐 Real-time Chat: Instant messaging using WebSocket technology through Socket.IO.
+👤 Anonymous Messaging: Chat without revealing personal information. Each user is assigned a unique ID.
+📱 Responsive Design: Fully responsive for optimal experience on mobile and desktop devices.
+✨ User-Friendly Interface: Clean and modern UI built with Tailwind CSS for easy navigation.
 
 Authentication and Authorization:
->🔑 Token-Based Authentication: Implementing JWT (JSON Web Tokens) for secure user authentication. Users receive a token upon signup for subsequent requests.
->🔒 Protected Routes: Certain routes require authentication, ensuring only logged-in users can access them.
+🔑 Token-Based Authentication: Implementing JWT (JSON Web Tokens) for secure user authentication. Users receive a token upon signup for subsequent requests.
+🔒 Protected Routes: Certain routes require authentication, ensuring only logged-in users can access them.
 
 Technologies Used:
->⚛️ Next.js: Framework for server-rendered React applications, supporting static generation and server-side rendering.
->🎨 Tailwind CSS: Utility-first CSS framework for rapid UI development.
->🗄️ MongoDB (Atlas): NoSQL database for storing user data and chat history.
->⚙️ Express: Web application framework for Node.js, providing robust routing and middleware capabilities.
->💬 Socket.IO: Enables real-time, bidirectional communication between clients and servers for instant chatting.
+⚛️ Next.js: Framework for server-rendered React applications, supporting static generation and server-side rendering.
+🎨 Tailwind CSS: Utility-first CSS framework for rapid UI development.
+🗄️ MongoDB (Atlas): NoSQL database for storing user data and chat history.
+⚙️ Express: Web application framework for Node.js, providing robust routing and middleware capabilities.
+💬 Socket.IO: Enables real-time, bidirectional communication between clients and servers for instant chatting.
 
 
 
