@@ -1,3 +1,32 @@
+**Randomly**
+A real-time chat application where users can connect and chat anonymously with strangers. Built with Next.js, Tailwind CSS, MongoDB, Express, and Socket.IO, this application offers a smooth and engaging user experience.
+
+************************************************************************************
+Note:
+
+This is the Next.js part of the app. The socket server is in different repo.
+Socket Server Repo: https://github.com/webd-rupam/Randomly-SocketServer
+*************************************************************************************
+
+Features:
+>🌐 Real-time Chat: Instant messaging using WebSocket technology through Socket.IO.
+>👤 Anonymous Messaging: Chat without revealing personal information. Each user is assigned a unique ID.
+>📱 Responsive Design: Fully responsive for optimal experience on mobile and desktop devices.
+>✨ User-Friendly Interface: Clean and modern UI built with Tailwind CSS for easy navigation.
+
+Authentication and Authorization:
+>🔑 Token-Based Authentication: Implementing JWT (JSON Web Tokens) for secure user authentication. Users receive a token upon signup for subsequent requests.
+>🔒 Protected Routes: Certain routes require authentication, ensuring only logged-in users can access them.
+
+Technologies Used:
+>⚛️ Next.js: Framework for server-rendered React applications, supporting static generation and server-side rendering.
+>🎨 Tailwind CSS: Utility-first CSS framework for rapid UI development.
+>🗄️ MongoDB (Atlas): NoSQL database for storing user data and chat history.
+>⚙️ Express: Web application framework for Node.js, providing robust routing and middleware capabilities.
+>💬 Socket.IO: Enables real-time, bidirectional communication between clients and servers for instant chatting.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
